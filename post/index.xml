@@ -7,12 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 23 Aug 2021 17:50:35 +0800</lastBuildDate><atom:link href="https://2223408299.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Blog</title>
+      <title>彬彬第二次发博客</title>
       <link>https://2223408299.github.io/post/test-blog/</link>
       <pubDate>Mon, 23 Aug 2021 17:50:35 +0800</pubDate>
       
       <guid>https://2223408299.github.io/post/test-blog/</guid>
-      <description>我是用来测试的！！！！ 啊啊啊啊啊啊</description>
+      <description>1 二级标题 1.1 三级标题 我是用来测试的！！！！
+1.2 三级标题2 啊啊啊啊啊啊
+2 我是图片 3 链接  我是链接 https://2223408299.github.io/ 11111 22222  4 代码 hugo --theme=m10c --baseUrl=&amp;#34;https://2223408299.github.io/&amp;#34; --buildDrafts cd public git add . git status git commit -m &amp;#34;备注信息&amp;#34; set http_proxy=http://127.0.0.1:1080 set https_proxy=http://127.0.0.1:1180 #如果git push没反应可以试一下执行这两句代码 git push or git push -u origin master </description>
     </item>
     
     <item>
