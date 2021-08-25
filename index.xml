@@ -12,7 +12,24 @@
       <pubDate>Wed, 25 Aug 2021 10:49:28 +0800</pubDate>
       
       <guid>https://2223408299.github.io/post/abouthugo/</guid>
-      <description>1 为什么创建自己的个人博客 哈哈哈哈哈哈主要是在某站看了CodeSheep的视频-&amp;gt;为什么技术程序员必须有自己的个人博客。 而且也出了两期视频保姆级的手把手带你用Hero和hugo创建自己的个人博客，哈哈哈哈哈哈哈 既然这样就开始了自己的个人博客生涯，我是直接看用hugo那个视频来建的，没有看Hero的， 据说用Hero的小伙伴们遇到了各种各样的问题，哈哈哈，接下来就说一下我利用hugo搭建个人 博客的过程。  2 利用hugo搭建过程  1：先去hugo的网站下载自己相对应的hugo版本https://github.com/gohugoio/hugo/releases 大家对应选择自己的操作系统下载64的或者32的就好了，我这里是下载了64的。 2：下载好之后，大家需要去配hugo的环境变量，环境变量大家应该都会，不会就去网上搜一下一大堆 教程，这里就不详细说了。 3：打开命令指示符（window键加R输入cmd回车），输入 hugo version 查看hugo是否安装成功 显示对应hugo的版本即表示安装成功 4：然后来利用hugo生成自己的博客，输入 hugo new site myblog (myblog可以自己随便填，意思是 创建一个文件夹来存放博客 的相关文件) 该图片便是我自己创建的博客（其中public文件夹是后面生成的，下面会说到），简单解释一下主要的文件夹的作用 config.toml 是对应主题的一些网站标题、博客名字、每一页显示多少条博客（分页）和主题颜色等等的配置 themes 是存放博客主题的文件夹，下载的博客主题会放在里面，可以在里面更换自己的头像和网站图标等等， 需要注意的是，不同的主题会不一样，有些主题的头像是在config.toml里面配置的。 content 是存放编写的博客的，像md文件这些 public 便是我们博客的对应的html代码 5：下载主题，先去hugo的官网看自己喜欢的主题https://www.gohugo.org/theme/ 点进相关的主题详情会有下载代码，是利用git命令下载的，没有下载git的小伙伴们先去下载。 6：选择主题来启动个人博客 输入 hugo server -t m10c &amp;ndash;bulidDrafts 启动个人博客 (其中m10c是对应主题的名字，不知道名字的可以在themes文件夹里面看) 可以看到 输入localhost：1313/即可访问个人博客，当然现在只是自娱自乐，还没有发布到github上面。 7：部署到github上面 首先创建一个新的仓库 仓库名要和自己的Owner一致，字母必须小写，比如我的是2223408299，那仓库名就是 2223408299.github.io 回到命令指示符窗口，输入 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://2223408299.github.io/&amp;quot; &amp;ndash;buildDrafts (其中m10c是主题名字，baseUrl就填自己的) 输入成功之后会生成public文件，也就是生成博客的html代码。 8：接下来就是把生成public更新到github上面。其实也就是更新博客的意思，分为第一次发布到github和以后更新博客， 这两个的代码会稍有一点点不同 第一次发布 、、、sh cd public //进入public这个文件夹 git init //第一次发布需要初始化 git add .</description>
+      <description>1 为什么创建自己的个人博客 哈哈哈哈哈哈主要是在某站看了CodeSheep的视频-&amp;gt;为什么技术程序员必须有自己的个人博客。 而且也出了两期视频保姆级的手把手带你用Hero和hugo创建自己的个人博客，哈哈哈哈哈哈哈 既然这样就开始了自己的个人博客生涯，我是直接看用hugo那个视频来建的，没有看Hero的， 据说用Hero的小伙伴们遇到了各种各样的问题，哈哈哈，接下来就说一下我利用hugo搭建个人 博客的过程。  2 利用hugo搭建过程  1：先去hugo的网站下载自己相对应的hugo版本https://github.com/gohugoio/hugo/releases
+大家对应选择自己的操作系统下载64的或者32的就好了，我这里是下载了64的。 2：下载好之后，大家需要去配hugo的环境变量，环境变量大家应该都会，不会就去网上搜一下一大堆 教程，这里就不详细说了。 3：打开命令指示符（window键加R输入cmd回车），输入 hugo version 查看hugo是否安装成功
+显示对应hugo的版本即表示安装成功 4：然后来利用hugo生成自己的博客，输入 hugo new site myblog (myblog可以自己随便填，意思是 创建一个文件夹来存放博客的相关文件)
+该图片便是我自己创建的博客（其中public文件夹是后面生成的，下面会说到），简单解释一下主要的文件夹的作用
+config.toml 是对应主题的一些网站标题、博客名字、每一页显示多少条博客（分页）和主题颜色等等的配置
+themes 是存放博客主题的文件夹，下载的博客主题会放在里面，可以在里面更换自己的头像和网站图标等等， 需要注意的是，不同的主题会不一样，有些主题的头像是在config.toml里面配置的
+content 是存放编写的博客的，像md文件这些
+public 便是我们博客的对应的html代码 5：下载主题，先去hugo的官网看自己喜欢的主题https://www.gohugo.org/theme/
+点进相关的主题详情会有下载代码，是利用git命令下载的，没有下载git的小伙伴们先去下载。 6：选择主题来启动个人博客
+输入 hugo server -t m10c &amp;ndash;bulidDrafts 启动个人博客
+(其中m10c是对应主题的名字，不知道名字的可以在themes文件夹里面看)
+可以看到 输入localhost：1313/即可访问个人博客，当然现在只是自娱自乐，还没有发布到github上面。 7：部署到github上面 首先创建一个新的仓库
+仓库名要和自己的Owner一致，字母必须小写，比如我的是2223408299，那仓库名就是 2223408299.github.io
+回到命令指示符窗口
+输入 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://2223408299.github.io/&amp;quot; &amp;ndash;buildDrafts
+(其中m10c是主题名字，baseUrl就填自己的)
+输入成功之后会生成public文件，也就是生成博客的html代码。 8：接下来就是把生成public更新到github上面。其实也就是更新博客的意思，分为第一次发布到github和以后更新博客， 这两个的代码会稍有一点点不同
+第一次发布  cd public #进入public这个文件夹 git init #第一次发布需要初始化 git add .</description>
     </item>
     
     <item>
