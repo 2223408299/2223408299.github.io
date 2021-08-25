@@ -12,7 +12,8 @@
       <pubDate>Wed, 25 Aug 2021 10:49:28 +0800</pubDate>
       
       <guid>https://2223408299.github.io/post/abouthugo/</guid>
-      <description>1 为什么创建自己的个人博客 哈哈哈哈哈哈主要是在某站看了CodeSheep的视频-&amp;gt;为什么技术程序员必须有自己的个人博客。 而且也出了两期视频保姆级的手把手带你用Hero和hugo创建自己的个人博客，哈哈哈哈哈哈哈 既然这样就开始了自己的个人博客生涯，我是直接看用hugo那个视频来建的，没有看Hero的， 据说用Hero的小伙伴们遇到了各种各样的问题，哈哈哈，接下来就说一下我利用hugo搭建个人 博客的过程。  2 利用hugo搭建过程   1：先去hugo的网站下载自己相对应的hugo版本https://github.com/gohugoio/hugo/releases
+      <description>1 为什么创建自己的个人博客 哈哈哈哈哈哈主要是在某站看了CodeSheep的视频-&amp;gt;为什么技术程序员必须有自己的个人博客。 而且也出了两期视频保姆级的手把手带你用Hero和hugo创建自己的个人博客，哈哈哈哈哈哈哈 既然这样就开始了自己的个人博客生涯，我是直接看用hugo那个视频来建的，没有看Hero的， 据说用Hero的小伙伴们遇到了各种各样的问题，哈哈哈，接下来就说一下我利用hugo搭建个人 博客的过程。
+2 利用hugo搭建过程   1：先去hugo的网站下载自己相对应的hugo版本https://github.com/gohugoio/hugo/releases
 大家对应选择自己的操作系统下载64的或者32的就好了，我这里是下载了64的。
   2：下载好之后，大家需要去配hugo的环境变量，环境变量大家应该都会，不会就去网上搜一下一大堆 教程，这里就不详细说了。
   3：打开命令指示符（window键加R输入cmd回车），输入 hugo version 查看hugo是否安装成功
